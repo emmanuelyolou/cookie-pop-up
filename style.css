@@ -3,3 +3,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cookie-container{
+  background-image: linear-gradient(to right,#1565C0, #42A5F5);
+  width: 400px;
+  padding: 1rem 1.2rem 2rem .8rem;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 1rem;
+}
+.cookie-text{
+  width: 70%;
+  margin: 0 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: 'nunito', sans-serif;
+  color: #fff;
+}
+.cookie-title{
+  font-weight: 400;
+}
+.cookie-text p{
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+button{
+  color: #fff;
+  padding: 0.5rem 2rem;
+  background-color: #40a5f8;
+  border: none;
+  border-radius: .4rem;
+  cursor: pointer;
+}
+button:hover{
+  background: #40a5f8ad;
+}
+.cookie-text p, button{
+  margin: 0.2rem;
+}
