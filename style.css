@@ -12,8 +12,8 @@ body{
 }
 .cookie-container{
   background-image: linear-gradient(to right,#1565C0, #42A5F5);
-  width: 430px;
-  padding: 1rem 1rem 1.5rem .8rem;
+  width: 410px;
+  padding: 0.8rem .5rem 1rem .5rem;
   display: inline-flex;
   align-items: center;
   border-radius: 1rem;
@@ -29,11 +29,12 @@ body{
   color: #fff;
 }
 .cookie-title{
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 .cookie-text p{
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 button{
   color: #fff;
@@ -48,8 +49,8 @@ button:hover{
   background: #40a5f8ad;
 }
 .cookie-text p, button{
-  margin: 0.2rem;
+  margin: 0.3rem;
 }
 .cookie{
-  margin: 1.2rem;
+  margin: 1rem;
 }
